@@ -1,0 +1,149 @@
+@CHARSET "UTF-8";
+
+* {
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+	outline: none;
+}
+body {
+	font: 18px/2em Lato, Helvetica, serif;
+	color: #8e8e8e;
+}
+a {
+	color: #16587b;
+}
+	a:hover {
+		color: #0d405a;
+		text-decoration: none;
+	}	
+	a img {
+		text-decoration: none;
+	}
+h2 {
+	font-size: 35px;
+	font-weight: bold;
+	line-height: 50px;
+	color: #fff;
+}
+h3 {
+	font-size: 30px;
+	font-weight: bolder;
+	line-height: 50px;
+	color: #51585b;
+}
+
+
+header {
+	background: url(../images/header.jpg);
+}
+	header img {
+		margin: 0 auto;
+	}
+	header a.btn {
+		font-size: 14px;
+		font-weight: bold;
+		padding: 17px 66px;
+		background: #ffa200;
+	}
+
+.dark-bg {
+	background: url(../images/bg-dark.png);
+}
+.sky-bg {
+	background: url(../images/sky.jpg);
+}
+.outer {
+	padding: 60px 0 80px 0;
+}
+.centered {
+	text-align: center;
+}
+.text-white {
+	color: #fff;
+}
+.btn-ext, .btn-ext:hover {
+	font-size: 14px;
+	font-weight: bold;
+	padding: 17px 66px;
+	color: #fff;
+	background: #0c60c7;
+}
+.gray-text {
+	color: #c8c8c8;
+}
+.medium-text {
+	font-size: 24px;
+	line-height: 2em;
+	margin: 40px 0;
+}
+.less-margin {
+	margin: 30px 0;
+}
+
+#slider {
+	margin: 0 auto;
+	margin-top: 56px;
+}
+
+.icons {
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	background: url(../images/icons.png);
+	margin-bottom: 15px;
+	margin-right: 15px;
+}
+.icons-small {
+	width: 35px;
+	height: 35px;
+	background-size: 175px 35px;
+	margin-right: 10px;
+}
+	.icon-dribble {
+		background-position: 0 0;
+	}
+	.icon-facebook {
+		background-position: -50px 0;
+	}
+	.icons-small.icon-facebook {
+		background-position: -35px 0;
+	}
+	.icon-flickr {
+		background-position: -100px 0;
+	}
+	.icons-small.icon-flickr {
+		background-position: -70px 0;
+	}
+	.icon-linkedin {
+		background-position: -150px 0;
+	}
+	.icons-small.icon-linkedin {
+		background-position: -105px 0;
+	}
+	.icon-twitter {
+		background-position: -200px 0;
+	}
+	.icons-small.icon-twitter {
+		background-position: -140px 0;
+	}
+	
+	
+footer {
+	font-size: 14px;
+	line-height: 2.6em;
+	text-align: center;
+	color: #c8c8c8;
+	padding: 50px 30px;
+}
+	footer:after {
+		content: "";
+		display: block;
+		width: 190px;
+		height: 1px;
+		background: #323232;
+		margin: 0 auto;
+		margin-top: 20px;
+		border-top: 1px solid #aaa;
+		border-bottom: 1px solid #aaa;
+	}

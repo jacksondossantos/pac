@@ -2,17 +2,15 @@
 <html ng-app="PAC">
 	<head>
 		<base href="http://localhost/pac/">
+		<link rel="stylesheet" type="text/css" href="<?php echo base_url()?>bower_components/bootstrap/dist/css/bootstrap.css">
+		<meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>CCC 2017</title>
 	</head>
 
 	<body>
-		<h1>Bem vindo ao CCC <?php echo Date('Y')?></h1>
 		
-		[ <a href="<?php echo base_url()?>" title="DashBoard">DashBoard</a> ]
-		[ <a href="<?php echo base_url()?>alunos" title="Alunos">Alunos</a> ]
-		[ <a href="<?php echo base_url()?>turmas" title="Turmas">Turma</a> ]
-
-
 		<div ng-view>
 			
 					
@@ -22,6 +20,7 @@
 		<script src="<?php echo base_url()?>bower_components/angular/angular.js"></script>
 		<script src="<?php echo base_url()?>bower_components/angular-route/angular-route.js"></script>
 		<script src="<?php echo base_url()?>bower_components/oclazyload/dist/ocLazyLoad.js"></script>
+		<script src="<?php echo base_url()?>bower_components/bootstrap/dist/js/bootstrap.js"></script>
 
 
 		<!--ANGULAR.JS APPLICATION FILES-->
